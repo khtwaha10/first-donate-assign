@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#showcase{
+	min-height: 400px;
+	background: url('../image/donation13.jpg') no-repeat 0 -400px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+.container{
+    display: block;
+    padding-top: 30px;
+    /*overflow: hidden;*/
+}
+.container h1{
+    font-size: 35px;
+}
+.container p{
+    font-size: 20px;
+}
+.container button{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 3px solid #008000;
+}
+#showcase2{
+	min-height: 400px;
+	text-align: center;
+	color: #000000;
+}
+.container2{
+  display: block;
+  padding-top: 30px;
+}
+.container2 h1{
+  font-size: 50px;
+}
+.container2 p{
+  font-size: 20px;
+}
+.container2 button{
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 3px solid green;
+}
+#fname{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 15px;
+  width: 50%;
+}
+.process{
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 3px solid green;
+}
+#boxes{
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  #boxes h1{
+    font-size: 30px;
+  }
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:15px;
+    padding-right:26px;
+    background-color: aliceblue;
+  }
+  
+  #boxes .box imgage{
+    width:90px;
+  }
+  #showcase3{
+    min-height: 400px;
+    text-align: center;
+    color: #000000;
+  }
+  .container3{
+    display: block;
+    padding-top: 30px;
+  }
+  aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width:90%;
+	padding:5px;
+}
+article#main-col{
+	float:left;
+	width:65%;
+}
+#showcase4{
+  min-height: 200px;
+  padding-top: 200px;
+}
+.container4{
+	padding:15px;
+	color:#000000;
+  text-align: center;
+}
+.container4 h1{
+  font-size: 30px;
+}
+.container4 form {
+  margin-top:15px;
+}
+#newsletter input[type="email"]{
+	padding:1px;
+	height:20px;
+	width:200px;
+}
+footer{
+	padding:10px;
+	margin-top:15px;
+	color:#ffffff;
+	background-color:#000000;
+	text-align:center;
+}
